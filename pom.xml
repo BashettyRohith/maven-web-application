@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.108.41.31:9980/rohith/repository/newbank-release/</url>
+	      <url>http://52.66.137.138:9980/rohith/repository/newbank-release</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.108.41.31:9980/rohith/repository/newbank-snapshot/</url>
+	      <name>Mithun Technologies Snapshot Nexus Repository</name>
+	      <url>http://52.66.137.138:9980/rohith/repository/newbank-snapshot</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

@@ -1,0 +1,32 @@
+
+node{
+    
+    def mavenHome = tool name: "maven-3.8.7"
+
+
+
+//getting the code from git
+
+stage('checkout code'){
+
+
+
+git branch: 'development', url: 'https://github.com/BashettyRohith/maven-web-application.git'
+
+}
+
+
+
+//build
+stage('build'){
+    
+    sh "${mavenHome}/bin/mvn clean package"
+
+//bin-we use bin directory becz mvn is present in bin
+}
+
+//creating sonarqube report
+
+
+
+}//node closing

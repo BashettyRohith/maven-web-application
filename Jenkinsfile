@@ -48,18 +48,18 @@ stage('upload artifract'){
 sh "${mavenHome}/bin/mvn deploy"
 }
         
-          /*
+        
 
 stage('upload tomcat'){
 
 
 sshagent(['77d81bfd-3230-4199-a6d4-fd4da867fbe8']) {
-   sh "scp -o  StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.233.160.169:/opt/apache-tomcat-9.0.70/webapps/"
+   sh "scp -o  StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.233.5.255:/opt/apache-tomcat-9.0.70/webapps/"
 
 }
 
 }
-*/
+
      
       
         

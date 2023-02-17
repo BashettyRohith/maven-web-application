@@ -13,7 +13,7 @@ node{
 
 stage('checkout code'){
 
-
+sendslacknotification("STARTED")
 
 git branch: 'development', url: 'https://github.com/BashettyRohith/maven-web-application.git'
 

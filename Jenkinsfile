@@ -24,7 +24,7 @@ git branch: 'development', url: 'https://github.com/BashettyRohith/maven-web-app
 //build
 stage('build'){
     
-    sh "${mavenHome}/bin/mvn clean package"
+    sh "${mavenHome}/bin/mvn clean packag"
 
 //bin-we use bin directory becz mvn is present in bin
 }

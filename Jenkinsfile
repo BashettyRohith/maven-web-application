@@ -31,13 +31,15 @@ stage('build'){
 
 //creating sonarqube report
 
-/*
+
 
 stage('sonarqube'){
 
    sh "${mavenHome}/bin/mvn sonar:sonar"
 
 }
+        
+        /*
 
 //upload articrafts in to nexus
 

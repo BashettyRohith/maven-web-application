@@ -39,7 +39,7 @@ stage('sonarqube'){
 
 }
         
-        /*
+      
 
 //upload articrafts in to nexus
 
@@ -47,6 +47,8 @@ stage('upload artifract'){
 
 sh "${mavenHome}/bin/mvn deploy"
 }
+        
+          /*
 
 stage('upload tomcat'){
 

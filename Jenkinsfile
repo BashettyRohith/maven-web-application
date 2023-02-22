@@ -1,6 +1,8 @@
 
 node{
     
+    node('nodes){
+    
     try{
     
     def mavenHome = tool name: "maven-3.8.7"
@@ -76,7 +78,7 @@ sshagent(['77d81bfd-3230-4199-a6d4-fd4da867fbe8']) {
   }
 }//node closing
 
-
+         }
 def sendslacknotification(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESS'

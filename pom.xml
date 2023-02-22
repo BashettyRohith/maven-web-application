@@ -105,7 +105,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository</name>
-	      <url>http://52.66.195.63:9980/rohith/repository/newbankl-snapshot/</url>
+	      <url>http://3.108.42.213:9980/rohith/repository/newbank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

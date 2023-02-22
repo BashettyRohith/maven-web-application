@@ -1,7 +1,7 @@
 
 node{
     
-    node('nodes){
+    node('nodes'){
     
     try{
     

@@ -107,7 +107,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.108.41.31:9980/rohith/repository/newbank-snapshot/</url>
+	      <url>http://3.109.201.73:8081/repository/maven-releases/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
